@@ -1,0 +1,14 @@
+source 'https://rubygems.org'
+
+gem 'sinatra'
+gem 'sinatra-contrib'
+gem 'puma'
+gem 'rack-cors'
+gem 'json'
+gem 'securerandom'
+gem 'dry-struct'
+gem 'dry-types'
+
+group :development do
+  gem 'rerun'
+end
